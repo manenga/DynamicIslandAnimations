@@ -10,10 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "swift")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+                .padding(8)
+            Text("Hello, Dynamic Island!")
+                .font(.system(size: 18))
+                .padding(8)
+            Button("Notify Me") {
+                NotificationCenter.default.post(name: .init("NOTIFY"), object: NotificationModel(title: "Dynamic Island", content: "This is an example"))
+            }
+            .foregroundColor(.black)
         }
         .padding()
     }

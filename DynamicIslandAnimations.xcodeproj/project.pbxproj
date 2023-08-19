@@ -14,6 +14,9 @@
 		FF7A0C272A91297E00A46BFC /* DynamicIslandAnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A0C262A91297E00A46BFC /* DynamicIslandAnimationsTests.swift */; };
 		FF7A0C312A91297E00A46BFC /* DynamicIslandAnimationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A0C302A91297E00A46BFC /* DynamicIslandAnimationsUITests.swift */; };
 		FF7A0C332A91297E00A46BFC /* DynamicIslandAnimationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A0C322A91297E00A46BFC /* DynamicIslandAnimationsUITestsLaunchTests.swift */; };
+		FF7A0C402A9129B800A46BFC /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A0C3F2A9129B800A46BFC /* NotificationModel.swift */; };
+		FF7A0C422A9129EB00A46BFC /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A0C412A9129EB00A46BFC /* NotificationView.swift */; };
+		FF7A0C442A912E5300A46BFC /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A0C432A912E5300A46BFC /* UIDeviceExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		FF7A0C2C2A91297E00A46BFC /* DynamicIslandAnimationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicIslandAnimationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7A0C302A91297E00A46BFC /* DynamicIslandAnimationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicIslandAnimationsUITests.swift; sourceTree = "<group>"; };
 		FF7A0C322A91297E00A46BFC /* DynamicIslandAnimationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicIslandAnimationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF7A0C3F2A9129B800A46BFC /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
+		FF7A0C412A9129EB00A46BFC /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		FF7A0C432A912E5300A46BFC /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				FF7A0C142A91297D00A46BFC /* DynamicIslandAnimationsApp.swift */,
 				FF7A0C162A91297D00A46BFC /* ContentView.swift */,
+				FF7A0C3F2A9129B800A46BFC /* NotificationModel.swift */,
+				FF7A0C412A9129EB00A46BFC /* NotificationView.swift */,
+				FF7A0C432A912E5300A46BFC /* UIDeviceExtensions.swift */,
 				FF7A0C182A91297E00A46BFC /* Assets.xcassets */,
 				FF7A0C1A2A91297E00A46BFC /* DynamicIslandAnimations.entitlements */,
 				FF7A0C1B2A91297E00A46BFC /* Preview Content */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7A0C402A9129B800A46BFC /* NotificationModel.swift in Sources */,
 				FF7A0C172A91297D00A46BFC /* ContentView.swift in Sources */,
 				FF7A0C152A91297D00A46BFC /* DynamicIslandAnimationsApp.swift in Sources */,
+				FF7A0C422A9129EB00A46BFC /* NotificationView.swift in Sources */,
+				FF7A0C442A912E5300A46BFC /* UIDeviceExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
