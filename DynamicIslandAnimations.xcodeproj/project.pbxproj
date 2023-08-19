@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FF7A0C152A91297D00A46BFC /* DynamicIslandAnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A0C142A91297D00A46BFC /* DynamicIslandAnimationsApp.swift */; };
-		FF7A0C172A91297D00A46BFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A0C162A91297D00A46BFC /* ContentView.swift */; };
+		FF7A0C172A91297D00A46BFC /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A0C162A91297D00A46BFC /* MainScreen.swift */; };
 		FF7A0C192A91297E00A46BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7A0C182A91297E00A46BFC /* Assets.xcassets */; };
 		FF7A0C1D2A91297E00A46BFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7A0C1C2A91297E00A46BFC /* Preview Assets.xcassets */; };
 		FF7A0C272A91297E00A46BFC /* DynamicIslandAnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A0C262A91297E00A46BFC /* DynamicIslandAnimationsTests.swift */; };
@@ -16,7 +16,6 @@
 		FF7A0C332A91297E00A46BFC /* DynamicIslandAnimationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A0C322A91297E00A46BFC /* DynamicIslandAnimationsUITestsLaunchTests.swift */; };
 		FF7A0C402A9129B800A46BFC /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A0C3F2A9129B800A46BFC /* NotificationModel.swift */; };
 		FF7A0C422A9129EB00A46BFC /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A0C412A9129EB00A46BFC /* NotificationView.swift */; };
-		FF7A0C442A912E5300A46BFC /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A0C432A912E5300A46BFC /* UIDeviceExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +38,7 @@
 /* Begin PBXFileReference section */
 		FF7A0C112A91297D00A46BFC /* DynamicIslandAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicIslandAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7A0C142A91297D00A46BFC /* DynamicIslandAnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicIslandAnimationsApp.swift; sourceTree = "<group>"; };
-		FF7A0C162A91297D00A46BFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF7A0C162A91297D00A46BFC /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		FF7A0C182A91297E00A46BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF7A0C1A2A91297E00A46BFC /* DynamicIslandAnimations.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DynamicIslandAnimations.entitlements; sourceTree = "<group>"; };
 		FF7A0C1C2A91297E00A46BFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -50,7 +49,6 @@
 		FF7A0C322A91297E00A46BFC /* DynamicIslandAnimationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicIslandAnimationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FF7A0C3F2A9129B800A46BFC /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
 		FF7A0C412A9129EB00A46BFC /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
-		FF7A0C432A912E5300A46BFC /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +76,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF0EADA02A9133870045F74F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FF0EADA12A91338D0045F74F /* Main */,
+				FF0EADA32A9133A80045F74F /* Notification */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		FF0EADA12A91338D0045F74F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FF7A0C162A91297D00A46BFC /* MainScreen.swift */,
+				FF7A0C142A91297D00A46BFC /* DynamicIslandAnimationsApp.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FF0EADA22A91339A0045F74F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF7A0C3F2A9129B800A46BFC /* NotificationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF0EADA32A9133A80045F74F /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				FF7A0C412A9129EB00A46BFC /* NotificationView.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		FF0EADA42A9134050045F74F /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		FF7A0C082A91297D00A46BFC = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +140,9 @@
 		FF7A0C132A91297D00A46BFC /* DynamicIslandAnimations */ = {
 			isa = PBXGroup;
 			children = (
-				FF7A0C142A91297D00A46BFC /* DynamicIslandAnimationsApp.swift */,
-				FF7A0C162A91297D00A46BFC /* ContentView.swift */,
-				FF7A0C3F2A9129B800A46BFC /* NotificationModel.swift */,
-				FF7A0C412A9129EB00A46BFC /* NotificationView.swift */,
-				FF7A0C432A912E5300A46BFC /* UIDeviceExtensions.swift */,
+				FF0EADA22A91339A0045F74F /* Models */,
+				FF0EADA42A9134050045F74F /* Screenshots */,
+				FF0EADA02A9133870045F74F /* Screens */,
 				FF7A0C182A91297E00A46BFC /* Assets.xcassets */,
 				FF7A0C1A2A91297E00A46BFC /* DynamicIslandAnimations.entitlements */,
 				FF7A0C1B2A91297E00A46BFC /* Preview Content */,
@@ -269,10 +306,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF7A0C402A9129B800A46BFC /* NotificationModel.swift in Sources */,
-				FF7A0C172A91297D00A46BFC /* ContentView.swift in Sources */,
+				FF7A0C172A91297D00A46BFC /* MainScreen.swift in Sources */,
 				FF7A0C152A91297D00A46BFC /* DynamicIslandAnimationsApp.swift in Sources */,
 				FF7A0C422A9129EB00A46BFC /* NotificationView.swift in Sources */,
-				FF7A0C442A912E5300A46BFC /* UIDeviceExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

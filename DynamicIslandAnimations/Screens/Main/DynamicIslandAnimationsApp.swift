@@ -11,7 +11,7 @@ import SwiftUI
 struct DynamicIslandAnimationsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainScreen()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .overlay(alignment: .top) {
                     GeometryReader { proxy in

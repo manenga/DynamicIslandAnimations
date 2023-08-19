@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MainScreen.swift
 //  DynamicIslandAnimations
 //
 //  Created by Manenga Mungandi on 2023/08/19.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainScreen: View {
     var body: some View {
         VStack {
             Image(systemName: "swift")
@@ -26,8 +26,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MainScreenPreviews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainScreen()
     }
 }

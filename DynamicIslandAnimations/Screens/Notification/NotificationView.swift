@@ -19,7 +19,7 @@ struct NotificationView: View {
                 .frame(width: 35, height: 35)
                 .foregroundColor(.white)
                 .padding(8)
-            Text("Hello, Uduak!")
+            Text("Hello, Dynamic Island!")
                 .font(.system(size: 18))
                 .foregroundColor(.white)
                 .padding(8)
